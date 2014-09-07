@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PRC31-4" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PRC31-4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="scan" />
+				</Compiler>
+			</Target>
+			<Target title="test">
+				<Option output="bin/test/PRC31-4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="test" />
+					<Add directory="test/gtest" />
+					<Add directory="scan" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="scan/Scan.cpp" />
+		<Unit filename="scan/Scan.h" />
+		<Unit filename="scan/ScanList.cpp" />
+		<Unit filename="scan/ScanList.h" />
+		<Unit filename="test/ScanListTest.cpp">
+			<Option target="test" />
+		</Unit>
+		<Unit filename="test/ScanListTest.h">
+			<Option target="test" />
+		</Unit>
+		<Unit filename="test/gtest/src/gtest-all.cc">
+			<Option target="test" />
+		</Unit>
+		<Unit filename="test/gtest/src/gtest_main.cc">
+			<Option target="test" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
