@@ -32,28 +32,28 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="motorvoertuigen/Vrachtwagen.cpp" />
-		<Unit filename="motorvoertuigen/Vrachtwagen.h" />
-		<Unit filename="motorvoertuigen/Wagen.cpp" />
-		<Unit filename="motorvoertuigen/Wagen.h" />
-		<Unit filename="motorvoertuigen/Wiel.cpp" />
-		<Unit filename="motorvoertuigen/Wiel.h" />
-		<Unit filename="test/VrachtwagenTest.cpp">
+		<Unit filename="motorvoertuigen/Truck.cpp" />
+		<Unit filename="motorvoertuigen/Truck.h" />
+		<Unit filename="motorvoertuigen/Car.cpp" />
+		<Unit filename="motorvoertuigen/Car.h" />
+		<Unit filename="motorvoertuigen/Wheel.cpp" />
+		<Unit filename="motorvoertuigen/Wheel.h" />
+		<Unit filename="test/TruckTest.cpp">
 			<Option target="test" />
 		</Unit>
-		<Unit filename="test/VrachtwagenTest.h">
+		<Unit filename="test/TruckTest.h">
 			<Option target="test" />
 		</Unit>
-		<Unit filename="test/WagenTest.cpp">
+		<Unit filename="test/CarTest.cpp">
 			<Option target="test" />
 		</Unit>
-		<Unit filename="test/WagenTest.h">
+		<Unit filename="test/CarTest.h">
 			<Option target="test" />
 		</Unit>
-		<Unit filename="test/WielTest.cpp">
+		<Unit filename="test/WheelTest.cpp">
 			<Option target="test" />
 		</Unit>
-		<Unit filename="test/WielTest.h">
+		<Unit filename="test/WheelTest.h">
 			<Option target="test" />
 		</Unit>
 		<Unit filename="test/gtest/src/gtest-all.cc">

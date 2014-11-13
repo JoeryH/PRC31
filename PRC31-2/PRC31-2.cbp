@@ -36,7 +36,7 @@
 		<Unit filename="meetserie/Meetserie.h" />
 		<Unit filename="meetserie/MeetserieExtra.cpp" />
 		<Unit filename="meetserie/MeetserieExtra.h" />
-		<Unit filename="meetserie/Opdracht1.cpp">
+		<Unit filename="meetserie/Opdracht2.cpp">
 			<Option target="Debug" />
 		</Unit>
 		<Unit filename="test/MeetserieExtraTest.cpp">

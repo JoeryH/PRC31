@@ -15,8 +15,7 @@ string Meetserie::getNaam()
 
 void Meetserie::setNaam(string nm)
 {
-	Meetserie *ptr = this;
-	ptr->naam = nm;
+	naam = nm;
 }
 
 bool Meetserie::isVol() {
@@ -25,8 +24,7 @@ bool Meetserie::isVol() {
 
 void Meetserie::voegToe(int meetw)
 {
-	Meetserie *ptr = this;
-	if (!ptr->isVol()) {
+	if (!isVol()) {
         meetwaarden[count] = meetw;
         count++;
 	}

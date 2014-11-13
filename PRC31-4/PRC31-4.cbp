@@ -43,6 +43,9 @@
 		<Unit filename="test/ScanListTest.h">
 			<Option target="test" />
 		</Unit>
+		<Unit filename="test/ScanTest.cpp">
+			<Option target="test" />
+		</Unit>
 		<Unit filename="test/gtest/src/gtest-all.cc">
 			<Option target="test" />
 		</Unit>

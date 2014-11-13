@@ -37,6 +37,7 @@
 		<Unit filename="meetserie/Opdracht1.cpp">
 			<Option target="Debug" />
 		</Unit>
+		<Unit filename="meetserie/menu.cpp" />
 		<Unit filename="test/MeetserieTest.cpp">
 			<Option target="test" />
 		</Unit>
